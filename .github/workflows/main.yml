@@ -25,4 +25,4 @@ jobs:
         run: make install
 
       - name : running flask app
-        run: python app.py
+        run: python app.py &

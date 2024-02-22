@@ -1,0 +1,27 @@
+name: Docker Image yml
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build the Docker image
+      run: |
+        docker build -t triplemlops/ca3:latest .
+        docker images  # Optional: List Docker images for verification
+
+    - name: Run Docker container
+      run: |
+        docker run -p 5000:5000 triplemlops/ca3:latest

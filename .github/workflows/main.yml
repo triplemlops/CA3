@@ -21,5 +21,8 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install dependencies of make file
+        run: make install
+
       - name : running flask app
         run: python app.py

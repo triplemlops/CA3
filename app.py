@@ -2,7 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# Define routes for different arithmetic operations
+
+
 @app.route('/calc/add/<int:num1>/<int:num2>')
 def add(num1, num2):
     result = num1 + num2

@@ -1,0 +1,6 @@
+20I-0956 
+MUHAMMAD HANZALAH
+
+1. Created CA3 Git hub repository
+2. Created a flask application for the calculator.
+3. Perfomed necessary scffolding

@@ -4,3 +4,10 @@ MUHAMMAD HANZALAH
 1. Created CA3 Git hub repository
 2. Created a flask application for the calculator.
 3. Perfomed necessary scffolding
+
+20I-0502
+MALAIKA
+
+1. Added a port for listening
+2. Changed UI of the application
+3. Merging 

@@ -22,4 +22,4 @@ jobs:
           python-version: '3.x'
 
       - name : running flask app
-        run: python app.py &
+        run: python app.py

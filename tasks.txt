@@ -4,3 +4,7 @@ MUHAMMAD HANZALAH
 1. Created CA3 Git hub repository
 2. Created a flask application for the calculator.
 3. Perfomed necessary scffolding
+MARIA SAEED AHMED
+20I0836
+1. made edits to app.py
+2. created the dockerfile

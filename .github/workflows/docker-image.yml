@@ -26,7 +26,6 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build -t triplemlops/ca3:latest .
-        docker images  # Optional: List Docker images for verification
         docker push triplemlops/ca3:latest
 
     - name: Run Docker container
